@@ -1,5 +1,5 @@
 body {
-  background-color: #f5fcff;
+  background-color: #eaeaea;
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -16,8 +16,7 @@ textarea:focus {
   outline: none;
 }
 
-a,
-nav button {
+a {
   text-decoration: none;
   background-color: transparent;
   border: none;
@@ -28,9 +27,8 @@ nav button {
   font-family: "Montserrat", sans-serif;
 }
 
-a:hover,
-nav button:hover {
-  color: #bbb;
+a:hover {
+  color: rgb(150, 149, 149);
 }
 
 /* Form styles */
@@ -74,15 +72,18 @@ textarea {
 }
 
 .btn.btn-dark {
-  background-color: #000;
-  border-radius: 0;
+  background-color: #1f1f1f;
+  transition: .5s;
+}
+
+.btn.btn-danger {
+  transition: .5s;
 }
 
 .btn.btn-outline {
   background-color: transparent;
-  border-radius: 0;
-  color: #000;
-  border: 1px solid #000;
+  color: #1f1f1f;
+  border: 1px solid #1f1f1f;
   padding: 7px 30px;
 }
 
@@ -91,8 +92,12 @@ textarea {
   color: #FFF;
 }
 
+.btn.btn-dark:hover {
+  background-color: #4a4a4a;
+}
+
 .btn.btn-outline:hover {
-  background-color: #000;
+  background-color: #1f1f1f;
 }
 
 .btn.btn-danger:hover {
