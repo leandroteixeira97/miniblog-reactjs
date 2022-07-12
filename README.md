@@ -12,7 +12,7 @@ https://leandroteixeira97.github.io/miniblog-reactjs/
 
 ## Download e instalação do projeto local
 
-Para rodar o projeto em uma máquina local você precisará, primeiramente, do Node instalado em seu computador (https://nodejs.org/en/).Após isto, siga os passos:
+Para rodar o projeto em uma máquina local você precisará, primeiramente, do Node instalado em seu computador https://nodejs.org/en/ . Após isto, siga os passos:
 
 ### Passo I
 Realizar o seguinte comando no bash do git:
