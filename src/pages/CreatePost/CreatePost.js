@@ -45,7 +45,7 @@ const CreatePost = () => {
     });
 
     // Redirect to homepage
-    navigate('/')
+    navigate('/miniblog-reactjs')
 
   };
 

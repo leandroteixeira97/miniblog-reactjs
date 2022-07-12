@@ -13,12 +13,12 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <NavLink to='/' className={styles.brand}>
+      <NavLink to='/miniblog-reactjs' className={styles.brand}>
         Eu, <span>Leandro</span>
       </NavLink>
       <ul className={styles.links_list}>
         <li>
-          <NavLink to='/' className={({ isActive }) => (isActive ? styles.active : "")}>Home</NavLink>
+          <NavLink to='/miniblog-reactjs' className={({ isActive }) => (isActive ? styles.active : "")}>Home</NavLink>
         </li>
         {!user && <>
           <li>
