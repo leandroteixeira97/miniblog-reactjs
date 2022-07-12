@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Miniblog pessoal - Eu, Leandro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido em ReactJS e Firebase, através do curso do Professor Matheus Battisti (Hora de Codar). A proposta era a criação de um miniblog pessoal onde seria possível criar novos posts e gerenciá-los por completo, criar usuários, realizar o gerenciamento da sessão dos usuários (login e logout), dentre outras funcionalidades.
 
-## Available Scripts
+Durante o projeto foram aplicados diversos conceitos de ReactJS como por exemplo a utilização e gerenciamento de states, utilização de hooks como useEffect, useCallback, além da utilização de hooks próprios criados para o projeto. Foram aplicados conceitos de gerenciamento de dados através do Firebase.
 
-In the project directory, you can run:
+Irei utilizar este projeto para catalogar minhas experiências na área do desenvolvimento, além de registrar novos aprendizados.
 
-### `npm start`
+## Acesse o projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://leandroteixeira97.github.io/miniblog-reactjs/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Download e instalação do projeto local
 
-### `npm test`
+Para rodar o projeto em uma máquina local você precisará, primeiramente, do Node instalado em seu computador (https://nodejs.org/en/).Após isto, siga os passos:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Passo I
+Realizar o seguinte comando no bash do git:
 
-### `npm run build`
+`git clone https://github.com/leandroteixeira97/miniblog-reactjs.git`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Isto realizará uma cópia local do repositório em sua máquina.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Passo II
+No diretório do projeto, dê o seguinte comando no bash para instalar todas as dependências necessárias do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ `npm install`
 
-### `npm run eject`
+### Passo III
+Ainda no diretório, dê o seguinte comando no bash para rodar o projeto localmente, em modo de desenvolvimento.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Passo IV
+Abra o link [http://localhost:3000](http://localhost:3000) para visualizar o projeto rodando no servidor local.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Prints
 
-## Learn More
+### Tela Inicial
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src='./readme/tela-inicial.png'/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Tela de Login
 
-### Code Splitting
+<img src='./readme/tela-login.png'/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Tela de Registro
 
-### Analyzing the Bundle Size
+<img src='./readme/tela-cadastro.png'/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Tela Sobre
 
-### Making a Progressive Web App
+<img src='./readme/tela-sobre.png'/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Tela de Criação de Post
 
-### Advanced Configuration
+<img src='./readme/tela-criacao-post.png'/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Tela de Dashboard
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src='./readme/tela-dashboard.png'/>
